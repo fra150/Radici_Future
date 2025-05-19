@@ -1,0 +1,128 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 0%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 90%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 0 0% 15%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 0% 20%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-montserrat;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-montserrat font-semibold;
+  }
+
+  .slide-container {
+    @apply min-h-screen flex flex-col;
+  }
+
+  .slide {
+    @apply w-full py-8 px-6 md:py-12 md:px-12 lg:py-16 lg:px-24 relative flex flex-col items-center;
+    min-height: 650px;
+  }
+
+  .shape {
+    @apply absolute pointer-events-none opacity-5;
+  }
+
+  .slide-title {
+    @apply text-3xl sm:text-4xl font-bold mb-2;
+  }
+
+  .slide-subtitle {
+    @apply text-lg text-muted-foreground mb-8;
+  }
+
+  .actor-card {
+    @apply bg-card rounded-md p-5 flex flex-col h-full transition-transform duration-300 hover:scale-[1.02] border;
+  }
+
+  .icon-circle {
+    @apply w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto;
+  }
+
+  .timeline-item {
+    @apply relative pl-8 pb-8 border-l last:border-l-0;
+  }
+
+  .timeline-dot {
+    @apply absolute -left-2.5 top-0 w-5 h-5 rounded-full;
+  }
+
+  .number-indicator {
+    @apply absolute top-2 right-2 opacity-50 text-sm font-bold;
+  }
+  
+  .impact-card {
+    @apply bg-card rounded-md p-5 flex flex-col h-full border transition-all duration-300 hover:shadow-md;
+  }
+}
