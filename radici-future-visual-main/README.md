@@ -1,69 +1,79 @@
-# Welcome to your radici-future project
+#  Welcome to the **Radici_Future** Project
+
+Radici_Future is a protected urban innovation initiative combining technology, memory, and ecological regeneration.  
+This project is licensed under a **Private License**. Please refer to [LICENSE.md](./LICENSE.md) for legal terms and usage restrictions.
+
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
+There are several ways to contribute or make changes to this application:
 
-**Use radici-future**
+### Use the Radici-Future Platform
 
-Simply visit the [radici-future Project](https://radici-future.dev/projects/e2ff03df-1526-4017-9675-3f530a0b6304) and start prompting.
+Simply visit the [Radici-Future GitHub Repository](https://github.com/fra150/Radici_Future.git) and start working.  
+Changes made via the official platform will be committed directly to this repository.
 
-Changes made via radici-future will be committed automatically to this repo.
+### Work Locally in Your IDE
 
-**Use your preferred IDE**
+If you prefer working locally with your own development environment, follow these steps:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in radici-future.
+# 1. Clone the repository
+git clone https://github.com/fra150/Radici_Future.git
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# 2. Navigate to the project directory
+cd Radici_Future
 
-Follow these steps:
+# 3. Install dependencies
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Launch the development server
 npm run dev
-```
+**Requirements**:
+Make sure you have **Node.js** and **npm** installed. We recommend installing Node via [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-**Edit a file directly in GitHub**
+###  Edit Files Directly in GitHub
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Open the repository on GitHub.
+2. Navigate to the file you want to edit.
+3. Click the ✎ "Edit" button (top right).
+4. Make your changes and commit.
 
-**Use GitHub Codespaces**
+###  Use GitHub Codespaces
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Go to your repository's main page.
+2. Click the green **Code** button.
+3. Select the **Codespaces** tab.
+4. Launch a new codespace to work directly in a cloud-based IDE.
 
-## What technologies are used for this project?
+## Technologies Used
 
-This project is built with:
+Radici\_Future is powered by modern technologies:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* **Vite**
+* **TypeScript**
+* **React**
+* **Tailwind CSS**
+* **shadcn/ui**
 
-## How can I deploy this project?
+## Deployment Instructions
+To deploy your project:
 
-Simply open [radici-future](https://radici-future.dev/projects/e2ff03df-1526-4017-9675-3f530a0b6304) and click on Share -> Publish.
+1. Open the [Radici-Future Deployment Page](https://Radici-Future.dev/projects/62012216-85d3-48a1-beab-e834e68caece)
+2. Click on **Share → Publish** to go live.
 
-## Can I connect a custom domain to my radici-future project?
+##  Connect a Custom Domain
 
-Yes, you can!
+Yes, you can connect a custom domain!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Go to **Project > Settings > Domains**
+2. Click **Connect Domain**
+3. Follow the instructions here: [Custom Domain Guide](https://docs.Radici-Future.dev/tips-tricks/custom-domain#step-by-step-guide)
 
-Read more here: [Setting up a custom domain](https://docs.radici-future.dev/tips-tricks/custom-domain#step-by-step-guide)
+## License
+
+This project is subject to a **Private License – All Rights Reserved**.
+Usage is strictly limited to authorized competitions and academic demonstration purposes only.
+See [LICENSE.md](./LICENSE.md) for full legal terms.
+
+
+
